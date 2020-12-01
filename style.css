@@ -30,3 +30,9 @@ p {
 .portrait {
   margin: 0 30px 15px 0;
 }
+
+.contact-submit {
+  background-color: teal;
+  color: white;
+  margin: 15px;
+}
