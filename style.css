@@ -1,3 +1,13 @@
+body {
+  background-color: lightgrey;
+  background-image: url('assets/images/background-tile.png');
+}
+
+main {
+  background-color: white;
+  margin-top: 60px;
+}
+
 .title-name {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
