@@ -19,7 +19,7 @@ h1 {
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 150%;
 }
 
@@ -43,7 +43,7 @@ footer {
 
 /* About page styling */
 .portrait {
-  margin: 0 30px 15px 0;
+  margin: 0 0 15px 0;
 }
 
 /* Contact page styling */
