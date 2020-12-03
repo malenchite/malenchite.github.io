@@ -8,6 +8,6 @@ A personal website containing About, Portfolio, and Contact pages. It makes use 
 The website has been deployed as http://malenchite.github.io
 
 ## Credits
-Basic page layout was provided as part of a UNC Coding Bootcamp assignment.
+Basic page layout was provided as part of a UNC Coding Bootcamp assignment.  
 Background texture courtesy of https://background-tiles.com/  
 Bootstrap framework courtesy of https://getbootstrap.com/
