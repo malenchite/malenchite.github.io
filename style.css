@@ -54,6 +54,21 @@ footer {
 }
 
 /* Portfolio page styling */
+figure {
+  display: table;
+  margin: 0px;
+}
+
+figure img {
+  display: block;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: center;
+}
+
 .portfolio-image {
   margin: 2rem 0 0 0;
 }
