@@ -1,7 +1,7 @@
 /* Common styling */
 body {
   background-color: lightgrey;
-  background-image: url('assets/images/background-tile.png');
+  background-image: url('../images/background-tile.png');
 }
 
 main {
