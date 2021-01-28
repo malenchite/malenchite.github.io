@@ -53,6 +53,10 @@ footer {
   margin: 0 0 15px 0;
 }
 
+.link-icon {
+  font-size: 2rem;
+}
+
 /* Contact page styling */
 .contact-submit {
   background-color: #0E5A40;
