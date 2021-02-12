@@ -8,7 +8,9 @@ function submitContactForm(form, event) {
     message: $("#message-input").val()
   };
 
-  $("#contact-status").text("Sending...");
+  $("#contact-submit").attr("disabled", true);
+  $("#contact-submit").text("Sending...");
+  $("#contact-status").text("");
 
   $.ajax("https://malenchite-contact.herokuapp.com/contact",
     {
@@ -19,12 +21,14 @@ function submitContactForm(form, event) {
     })
     .then(() => {
       $("#contact-status").text("Message sent!");
-      $("#name-input").val("");
-      $("#email-input").val("");
-      $("#message-input").val("");
+      $("#contact-form").trigger("reset");
     })
     .catch(() => {
       $("#contact-status").text("Error in sending");
+    })
+    .always(() => {
+      $("#contact-submit").attr("disabled", false);
+      $("#contact-submit").text("Submit");
     });
 }
 
