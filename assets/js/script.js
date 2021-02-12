@@ -56,9 +56,13 @@ $("#contact-form").validate({
   },
   messages: {
     name: "Required",
-    email: "Valid email required",
+    email:
+    {
+      required: "Required",
+      email: "Invalid address"
+    },
     message: {
-      required: "Message required",
+      required: "Required",
       minlength: "10 character minimum"
     }
   },
