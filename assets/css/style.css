@@ -64,9 +64,14 @@ footer {
   margin: 15px;
 }
 
-#contact-status {
+#contact-status,
+label.error
+ {
   font-style: italic;
   color: #0E5A40;
+}
+#name-field {
+  margin-bottom: 0.5rem
 }
 
 /* Portfolio page styling */

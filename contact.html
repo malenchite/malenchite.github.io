@@ -11,6 +11,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -39,24 +40,25 @@
     <section>
       <h1>Contact</h1>
       <hr />
-      <form>
+      <form id="contact-form">
         <div class="mb-3">
-          <span id="name-field">Name</span>
-          <input id="name-input" type="text" class="form-control" placeholder="Name" aria-label="Name"
+          <label id="name-field">Name</label>
+          <input id="name-input" name="name" type="text" class="form-control" placeholder="Name" aria-label="Name"
             aria-describedby="name-field" required>
         </div>
         <div class="mb-3">
-          <span id="email-field">Email</span>
-          <input id="email-input" type="email" class="form-control" placeholder="Email" aria-label="Email"
+          <label id="email-field">Email</label>
+          <input id="email-input" name="email" type="email" class="form-control" placeholder="Email" aria-label="Email"
             aria-describedby="email-field" required>
         </div>
         <div>
-          <span id="message-field">Message</span>
-          <textarea id="message-input" rows=5 class="form-control" placeholder="Message" aria-label="Message"
-            aria-describedby="message-field" required></textarea>
+          <label id="message-field">Message</label>
+          <textarea id="message-input" name="message" rows=5 class="form-control"
+            placeholder="Message of at least 10 characters" aria-label="Message" aria-describedby="message-field"
+            required></textarea>
         </div>
         <button id="contact-submit" class="btn contact-submit" type="submit">Submit</button>
-        <span id="contact-status" class="ml-5"></span>
+        <span id="contact-status" class="ml-3"></span>
       </form>
     </section>
   </main>

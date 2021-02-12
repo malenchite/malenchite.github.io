@@ -1,5 +1,5 @@
 /* Submit button behavior for contact form */
-$("#contact-submit").click((event) => {
+function submitContactForm(form, event) {
 
   event.preventDefault();
   let formData = {
@@ -18,12 +18,49 @@ $("#contact-submit").click((event) => {
       contentType: "application/json"
     })
     .then(() => {
-      $("#contact-status").text("Message submitted!");
+      $("#contact-status").text("Message sent!");
       $("#name-input").val("");
       $("#email-input").val("");
       $("#message-input").val("");
     })
     .catch(() => {
-      $("#contact-status").text("Error");
+      $("#contact-status").text("Error in sending");
     });
-});
+}
+
+$("#contact-form").validate({
+  rules: {
+    name: {
+      required: true,
+      normalizer: function (value) {
+        //Trim the value of element for whitespaces
+        return $.trim(value);
+      }
+    },
+    email: {
+      required: true,
+      email: true
+    },
+    message: {
+      required: true,
+      minlength: 10,
+      normalizer: function (value) {
+        //Trim the value of element for whitespaces
+        return $.trim(value);
+      }
+    }
+  },
+  messages: {
+    name: "Required",
+    email: "Valid email required",
+    message: {
+      required: "Message required",
+      minlength: "10 character minimum"
+    }
+  },
+  submitHandler: submitContactForm,
+  errorPlacement: (error, element) => {
+    error.addClass("ml-5")
+    error.insertBefore(element);
+  }
+})
