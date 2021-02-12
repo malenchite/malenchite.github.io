@@ -10,7 +10,7 @@ $("#contact-submit").click((event) => {
 
   $("#contact-status").text("Sending...");
 
-  $.ajax("http://malenchite-contact.herokuapp.com/contact",
+  $.ajax("https://malenchite-contact.herokuapp.com/contact",
     {
       type: "POST",
       data: JSON.stringify(formData),
