@@ -64,6 +64,11 @@ footer {
   margin: 15px;
 }
 
+#contact-status {
+  font-style: italic;
+  color: #0E5A40;
+}
+
 /* Portfolio page styling */
 figure {
   display: table;
