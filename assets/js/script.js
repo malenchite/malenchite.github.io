@@ -8,15 +8,16 @@ function submitContactForm(form, event) {
     message: $("#message-input").val()
   };
 
+  /* Update contact feedback */
   $("#contact-submit").attr("disabled", true);
   $("#contact-submit").text("Sending...");
   $("#contact-status").text("");
 
+  /* Send message to contact API */
   $.ajax("https://malenchite-contact.herokuapp.com/contact",
     {
       type: "POST",
       data: JSON.stringify(formData),
-      dataType: "json",
       contentType: "application/json"
     })
     .then(() => {
@@ -32,6 +33,7 @@ function submitContactForm(form, event) {
     });
 }
 
+/* Validation of contact form input */
 $("#contact-form").validate({
   rules: {
     name: {
@@ -56,8 +58,7 @@ $("#contact-form").validate({
   },
   messages: {
     name: "Required",
-    email:
-    {
+    email: {
       required: "Required",
       email: "Invalid address"
     },
