@@ -51,6 +51,7 @@ footer {
 /* About page styling */
 .portrait {
   margin: 0 0 15px 0;
+  border-radius: 30%;
 }
 
 .link-icon {
