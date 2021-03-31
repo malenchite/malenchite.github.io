@@ -38,7 +38,8 @@ footer {
   height: 4rem;
 }
 
-.title-name {
+.title-name,
+.title-name:hover {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   color: white;
