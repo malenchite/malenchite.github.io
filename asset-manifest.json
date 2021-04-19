@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.05425e81.chunk.css",
-    "main.js": "/static/js/main.f48aa743.chunk.js",
-    "main.js.map": "/static/js/main.f48aa743.chunk.js.map",
+    "main.css": "/static/css/main.4c3c837d.chunk.css",
+    "main.js": "/static/js/main.ae539877.chunk.js",
+    "main.js.map": "/static/js/main.ae539877.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a79540f1.js",
     "runtime-main.js.map": "/static/js/runtime-main.a79540f1.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.47aecdda.chunk.js": "/static/js/2.47aecdda.chunk.js",
-    "static/js/2.47aecdda.chunk.js.map": "/static/js/2.47aecdda.chunk.js.map",
+    "static/js/2.df483c75.chunk.js": "/static/js/2.df483c75.chunk.js",
+    "static/js/2.df483c75.chunk.js.map": "/static/js/2.df483c75.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.05425e81.chunk.css.map": "/static/css/main.05425e81.chunk.css.map",
-    "static/js/2.47aecdda.chunk.js.LICENSE.txt": "/static/js/2.47aecdda.chunk.js.LICENSE.txt",
+    "static/css/main.4c3c837d.chunk.css.map": "/static/css/main.4c3c837d.chunk.css.map",
+    "static/js/2.df483c75.chunk.js.LICENSE.txt": "/static/js/2.df483c75.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/background-tile.5f736ed9.png",
     "static/media/burger-logger-thumbnail.png": "/static/media/burger-logger-thumbnail.4d6fd879.png",
     "static/media/code-quiz-thumbnail.png": "/static/media/code-quiz-thumbnail.599d9b8e.png",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.a79540f1.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.47aecdda.chunk.js",
-    "static/css/main.05425e81.chunk.css",
-    "static/js/main.f48aa743.chunk.js"
+    "static/js/2.df483c75.chunk.js",
+    "static/css/main.4c3c837d.chunk.css",
+    "static/js/main.ae539877.chunk.js"
   ]
 }
