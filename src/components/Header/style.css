@@ -1,0 +1,14 @@
+.title-name,
+.title-name:hover {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
+  background-color: #0E5A40;
+  font-size: 1.75rem;
+  padding: 0 0.5rem;
+  border-radius: 10px;
+}
+
+.nav-link {
+  font-weight: 500;
+}

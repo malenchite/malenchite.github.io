@@ -1,0 +1,33 @@
+/* Common styling */
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: lightgrey;
+  background-image: url('./images/background-tile.png');
+}
+
+main {
+  background-color: white;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #0E5A40;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+}
