@@ -1,10 +1,31 @@
+import { useState } from "react"
 import { useForm } from "react-hook-form"
 import validator from "email-validator"
+import API from "./API"
 import "./style.css"
 
 function ContactForm() {
+  const [buttonState, setButtonState] = useState({
+    text: "Submit",
+    disabled: false
+  });
+  const [statusText, setStatusText] = useState("");
   const { register, formState: { errors }, handleSubmit } = useForm();
-  const onSubmit = data => console.log(data);
+
+  /* On form submit, set button and status text, then update when POST responds */
+  const onSubmit = (data, e) => {
+    setStatusText("");
+    setButtonState({ text: "Sending...", disabled: true });
+
+    API.submitForm(data)
+      .then(() => {
+        setStatusText("Message sent!");
+        e.target.reset();
+      })
+      .catch(() => setStatusText("Error in sending"))
+      .finally(() => setButtonState({ text: "Submit", disabled: false }));
+
+  };
 
   return (
     <form id="contact-form" onSubmit={handleSubmit(onSubmit)} noValidate>
@@ -38,8 +59,8 @@ function ContactForm() {
           }
         />
       </div>
-      <button id="contact-submit" className="btn contact-submit" type="submit">Submit</button>
-      <span id="contact-status" className="ml-3"></span>
+      <button id="contact-submit" className="btn contact-submit" type="submit" disabled={buttonState.disabled}>{buttonState.text}</button>
+      <span id="contact-status" className="ml-3">{statusText}</span>
     </form >
   );
 }
