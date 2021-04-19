@@ -1,25 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1e0e43b.chunk.css",
-    "main.js": "/static/js/main.c597b5dc.chunk.js",
-    "main.js.map": "/static/js/main.c597b5dc.chunk.js.map",
+    "main.css": "/static/css/main.05425e81.chunk.css",
+    "main.js": "/static/js/main.f48aa743.chunk.js",
+    "main.js.map": "/static/js/main.f48aa743.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a79540f1.js",
     "runtime-main.js.map": "/static/js/runtime-main.a79540f1.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.11bbe910.chunk.js": "/static/js/2.11bbe910.chunk.js",
-    "static/js/2.11bbe910.chunk.js.map": "/static/js/2.11bbe910.chunk.js.map",
+    "static/js/2.47aecdda.chunk.js": "/static/js/2.47aecdda.chunk.js",
+    "static/js/2.47aecdda.chunk.js.map": "/static/js/2.47aecdda.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.f1e0e43b.chunk.css.map": "/static/css/main.f1e0e43b.chunk.css.map",
-    "static/js/2.11bbe910.chunk.js.LICENSE.txt": "/static/js/2.11bbe910.chunk.js.LICENSE.txt",
+    "static/css/main.05425e81.chunk.css.map": "/static/css/main.05425e81.chunk.css.map",
+    "static/js/2.47aecdda.chunk.js.LICENSE.txt": "/static/js/2.47aecdda.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/background-tile.5f736ed9.png",
-    "static/media/portrait.a07bb880.png": "/static/media/portrait.a07bb880.png"
+    "static/media/burger-logger-thumbnail.png": "/static/media/burger-logger-thumbnail.4d6fd879.png",
+    "static/media/code-quiz-thumbnail.png": "/static/media/code-quiz-thumbnail.599d9b8e.png",
+    "static/media/code-refactor-thumbnail.png": "/static/media/code-refactor-thumbnail.70dcc7a5.png",
+    "static/media/coming-soon.png": "/static/media/coming-soon.afe2d499.png",
+    "static/media/note-taker-thumbnail.png": "/static/media/note-taker-thumbnail.1ff341d7.png",
+    "static/media/password-generator-thumbnail.png": "/static/media/password-generator-thumbnail.e4caf58a.png",
+    "static/media/portrait.png": "/static/media/portrait.a07bb880.png",
+    "static/media/readme-generator-thumbnail.png": "/static/media/readme-generator-thumbnail.223c56b0.png",
+    "static/media/rpg-manager-thumbnail.png": "/static/media/rpg-manager-thumbnail.094ea6d0.png",
+    "static/media/team-profile-generator-thumbnail.png": "/static/media/team-profile-generator-thumbnail.c8af8d3d.png",
+    "static/media/trivia-trainer-thumbnail.png": "/static/media/trivia-trainer-thumbnail.a30fd438.png",
+    "static/media/weather-dashboard-thumbnail.png": "/static/media/weather-dashboard-thumbnail.6f983832.png",
+    "static/media/work-day-scheduler-thumbnail.png": "/static/media/work-day-scheduler-thumbnail.290b09ae.png",
+    "static/media/workout-tracker-thumbnail.png": "/static/media/workout-tracker-thumbnail.d5c0851d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a79540f1.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.11bbe910.chunk.js",
-    "static/css/main.f1e0e43b.chunk.css",
-    "static/js/main.c597b5dc.chunk.js"
+    "static/js/2.47aecdda.chunk.js",
+    "static/css/main.05425e81.chunk.css",
+    "static/js/main.f48aa743.chunk.js"
   ]
 }
