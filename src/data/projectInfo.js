@@ -50,7 +50,7 @@ const projectInfo = [
     thumbnail: "employee-tracker-thumbnail.png",
     technologies: "node.js, MySQL",
     description: "A command-line application for interacting with a local employee MySQL database",
-    githubLink: "https://github.com/malenchite/burger-logger"
+    githubLink: "https://github.com/malenchite/employee-tracker"
   },
 
 ];
