@@ -7,7 +7,7 @@ function About() {
       <h1 className="section-header">About Me</h1>
       <hr />
       <div className="row">
-        <div className="col-md-6 col-lg-5">
+        <div className="col-md-6 col-lg-5 text-center">
           <img className="img-fluid portrait" src={portrait} alt="Portrait of Me" />
           <div className="text-center">
             <button className="icon-button mr-3">
