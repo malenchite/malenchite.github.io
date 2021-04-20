@@ -10,8 +10,16 @@ function About() {
         <div className="col-md-6 col-lg-5">
           <img className="img-fluid portrait" src={portrait} alt="Portrait of Me" />
           <div className="text-center">
-            <a href="https://www.linkedin.com/in/scisrael/" className="link-icon mr-3" target="_blank" aria-label="LinkedIn" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
-            <a href="https://github.com/malenchite" className="link-icon" target="_blank" aria-label="GitHub" rel="noreferrer"><i className="fab fa-github"></i></a>
+            <button className="icon-button mr-3">
+              <a href="https://www.linkedin.com/in/scisrael/" target="_blank" rel="noreferrer" aria-label="LinkedIn" >
+                <i className="fab fa-linkedin link-icon"></i><span className="sr-only"> LinkedIn</span>
+              </a>
+            </button>
+            <button className="icon-button">
+              <a href="https://github.com/malenchite" target="_blank" rel="noreferrer" aria-label="LinkedIn" >
+                <i className="fab fa-github link-icon"></i><span className="sr-only"> GitHub</span>
+              </a>
+            </button>
           </div>
         </div>
         <div className="col-md-6 col-lg-7">
