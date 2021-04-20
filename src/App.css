@@ -1,18 +1,12 @@
 /* Common styling */
 html {
+  overflow-x: hidden;
   overflow-y: scroll;
 }
 
 body {
   background-color: lightgrey;
   background-image: url('./images/background-tile.png');
-}
-
-main {
-  background-color: white;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  border-radius: 5px;
 }
 
 h2 {
