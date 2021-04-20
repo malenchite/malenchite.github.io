@@ -12,3 +12,7 @@
 .nav-link {
   font-weight: 500;
 }
+
+.active {
+  color: #0E5A40 !important;
+}
