@@ -2,6 +2,8 @@ import Container from "../components/Container";
 import ContactForm from "../components/ContactForm"
 
 function Contact() {
+  document.title = "Steven Israel | Contact";
+
   return (
     <Container>
       <section>
