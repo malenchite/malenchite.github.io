@@ -17,11 +17,11 @@ footer {
 }
 
 .gh-icon:hover::before {
-  animation: iconHover 0.5s 1;
+  animation: ghIconHover 0.5s 1;
   animation-fill-mode: forwards;
 }
 
-@keyframes iconHover {
+@keyframes ghIconHover {
   0% {
     font-size: 20px;
   }

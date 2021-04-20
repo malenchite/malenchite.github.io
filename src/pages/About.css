@@ -15,12 +15,12 @@
   background-color: transparent;
 }
 
-.link-icon:hover::before {
-  animation: iconHover 0.5s 1;
+.about-icon:hover::before {
+  animation: aboutHover 0.5s 1;
   animation-fill-mode: forwards;
 }
 
-@keyframes iconHover {
+@keyframes aboutHover {
   0% {
     font-size: 30px;
   }

@@ -12,12 +12,12 @@ function About() {
           <div className="text-center">
             <button className="icon-button mr-3">
               <a href="https://www.linkedin.com/in/scisrael/" target="_blank" rel="noreferrer" aria-label="LinkedIn" >
-                <i className="fab fa-linkedin link-icon"></i><span className="sr-only"> LinkedIn</span>
+                <i className="fab fa-linkedin about-icon"></i><span className="sr-only"> LinkedIn</span>
               </a>
             </button>
             <button className="icon-button">
               <a href="https://github.com/malenchite" target="_blank" rel="noreferrer" aria-label="LinkedIn" >
-                <i className="fab fa-github link-icon"></i><span className="sr-only"> GitHub</span>
+                <i className="fab fa-github about-icon"></i><span className="sr-only"> GitHub</span>
               </a>
             </button>
           </div>
