@@ -3,3 +3,30 @@ footer {
   border-top: 5px solid #0E5A40;
   height: 4rem;
 }
+
+.gh-button {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border: none;
+  bottom: 6px;
+  font-size: 20px;
+  outline: none;
+  background-color: transparent;
+}
+
+.gh-icon:hover::before {
+  animation: iconHover 0.5s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes iconHover {
+  0% {
+    font-size: 20px;
+  }
+
+  100% {
+    font-size: 24px;
+  }
+}
