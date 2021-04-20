@@ -13,13 +13,13 @@ function About() {
             <img className="img-fluid portrait" src={portrait} alt="Portrait of Me" />
             <div className="text-center">
               <button className="icon-button mr-3">
-                <a href="https://www.linkedin.com/in/scisrael/" target="_blank" rel="noreferrer" aria-label="LinkedIn" >
-                  <i className="fab fa-linkedin about-icon"></i><span className="sr-only"> LinkedIn</span>
+                <a href="https://www.linkedin.com/in/scisrael/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                  <i className="fab fa-linkedin about-icon"></i> <span className="sr-only">LinkedIn</span>
                 </a>
               </button>
               <button className="icon-button">
-                <a href="https://github.com/malenchite" target="_blank" rel="noreferrer" aria-label="LinkedIn" >
-                  <i className="fab fa-github about-icon"></i><span className="sr-only"> GitHub</span>
+                <a href="https://github.com/malenchite" target="_blank" rel="noreferrer" aria-label="GitHub">
+                  <i className="fab fa-github about-icon"></i> <span className="sr-only">GitHub</span>
                 </a>
               </button>
             </div>
@@ -30,20 +30,20 @@ function About() {
               and embedded software development. I have excellent skills in problem-solving and debugging with years of
               experience inresolving problems in code, as well as learning new technologies and languages. I have a proven track record
               working both in multi-disciplinary teams and as an individual contributor.
-        </p>
+            </p>
             <p>
               My journey has taken me from biomedical engineering through maritime robotics research, UI and behavioral
               software for pharmacy automation, and embedded development for personal navigation devices. I am excited to
               take the next step on my path into web development, applying my unique background, creativity, and life-long
               interest in programming to creating the future of the web.
-        </p>
+            </p>
             <p>
               Currently pursuing a certificate in full stack development from UNC Chapel Hill, with expected completion
               in May of 2021.
-        </p>
+            </p>
             <p>
               For more information, you can view <a href="https://drive.google.com/file/d/1-5sTT6lQAskb-MuUUho-Gm9-Osd94B5p/view" target="_blank" rel="noreferrer">my resume</a>.
-        </p>
+            </p>
             <table>
               <thead>
                 <tr>

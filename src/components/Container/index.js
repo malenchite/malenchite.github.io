@@ -1,13 +1,11 @@
 import { motion } from "framer-motion";
 import "./style.css";
 
-
 const pageTransition = {
   type: "tween",
   ease: "linear",
   duration: 0.25
 };
-
 
 function Container(props) {
   return (
@@ -21,7 +19,6 @@ function Container(props) {
       {props.children}
     </motion.main>
   );
-
 }
 
 export default Container;

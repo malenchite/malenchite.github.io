@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import validator from "email-validator"
-import API from "./API"
+import API from "../../utils/API"
 import "./style.css"
 
 function ContactForm() {

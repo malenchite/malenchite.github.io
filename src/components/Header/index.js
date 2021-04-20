@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./style.css";
 
-function Header(props) {
+function Header() {
   const location = useLocation();
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
@@ -13,11 +13,10 @@ function Header(props) {
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <Link to="/" className="title-name" onClick={collapseNav} replace>Steven Israel</Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={toggleNavCollapse}>
+        <button className="navbar-toggler" type="button" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={toggleNavCollapse}>
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse justify-content-end`} id="navbarNavAltMarkup">
+        <div className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse justify-content-end`}>
           <div className="navbar-nav">
             <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"} onClick={collapseNav} replace>
               Contact {location.pathname === "/contact" ? <span className="sr-only">(current)</span> : ""}

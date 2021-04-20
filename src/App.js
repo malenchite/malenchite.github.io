@@ -7,7 +7,6 @@ import { Route, Switch, useLocation } from "react-router-dom"
 import { AnimatePresence } from "framer-motion";
 import "./App.css"
 
-
 function App() {
   const location = useLocation();
   return (

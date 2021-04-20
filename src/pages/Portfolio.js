@@ -3,7 +3,6 @@ import projectInfo from "../data/projectInfo"
 import PortfolioRow from "../components/PortfolioRow"
 
 function Portfolio() {
-
   /* Construct list of rows with 1-2 projects each */
   const createRows = () => {
     let rows = []
