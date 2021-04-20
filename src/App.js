@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Header />
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence exitBeforeEnter initial={false}>
         <Switch location={location} key={location.pathname}>
           <Route exact path="/" key="about" component={About} />
           <Route path="/contact" key="contact" component={Contact} />
