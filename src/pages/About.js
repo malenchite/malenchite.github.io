@@ -64,6 +64,13 @@ function About() {
                     <li>MongoDB</li>
                   </ul>
                 </td>
+                <td>
+                  <ul>
+                    <li>React</li>
+                    <li>MERN</li>
+                    <li style={{ visibility: "hidden" }}></li>
+                  </ul>
+                </td>
               </tr>
             </tbody>
           </table>
