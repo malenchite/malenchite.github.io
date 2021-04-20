@@ -1,8 +1,24 @@
+import { motion } from "framer-motion";
+
+
+const pageTransition = {
+  type: "tween",
+  ease: "linear",
+  duration: 0.25
+};
+
+
 function Container(props) {
   return (
-    <main className="container pt-4 pl-5 pr-5 clearfix">
+    <motion.main
+      initial={{ x: "-100vw" }}
+      animate={{ x: 0 }}
+      exit={{ x: "100vw" }}
+      transition={pageTransition}
+      className="container pt-4 pl-5 pr-5 clearfix"
+    >
       {props.children}
-    </main>
+    </motion.main>
   );
 
 }

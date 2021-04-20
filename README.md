@@ -46,6 +46,7 @@ Key NPM Packages:
 * [axios](https://www.npmjs.com/package/axios)
 * [bootstrap](https://www.npmjs.com/package/bootstrap)
 * [email-validator](https://www.npmjs.com/package/email-validator)
+* [framer-motion](https://www.npmjs.com/package/framer-motion)
 * [gh-pages](https://www.npmjs.com/package/gh-pages)
 * [react-hook-form](https://www.npmjs.com/package/react-hook-form)
 * [react-router-dom](https://www.npmjs.com/package/react-router-dom)

@@ -1,3 +1,4 @@
+import Container from "../components/Container";
 import projectInfo from "../data/projectInfo"
 import PortfolioRow from "../components/PortfolioRow"
 
@@ -15,11 +16,13 @@ function Portfolio() {
   };
 
   return (
-    <section className="pb-2">
-      <h1 className="section-header">Portfolio</h1>
-      <hr />
-      {createRows()}
-    </section>
+    <Container>
+      <section className="pb-2">
+        <h1 className="section-header">Portfolio</h1>
+        <hr />
+        {createRows()}
+      </section>
+    </Container>
   );
 }
 

@@ -1,24 +1,27 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Container from "./components/Container";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-import { HashRouter, Route } from "react-router-dom"
+import { Route, Switch, useLocation } from "react-router-dom"
+import { AnimatePresence } from "framer-motion";
 import "./App.css"
 
 
 function App() {
+  const location = useLocation();
   return (
-    <HashRouter>
+    <div>
       <Header />
-      <Container>
-        <Route exact path="/" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/portfolio" component={Portfolio} />
-      </Container>
+      <AnimatePresence exitBeforeEnter>
+        <Switch location={location} key={location.pathname}>
+          <Route exact path="/" key="about" component={About} />
+          <Route path="/contact" key="contact" component={Contact} />
+          <Route path="/portfolio" key="portfolio" component={Portfolio} />
+        </Switch>
+      </AnimatePresence>
       <Footer />
-    </HashRouter>
+    </div>
   );
 }
 
