@@ -2,7 +2,7 @@ import Container from "../components/Container";
 import portrait from "../images/portrait.png";
 import "./About.css"
 
-function About() {
+function About () {
   document.title = "Steven Israel | About";
   return (
     <Container>
@@ -39,8 +39,7 @@ function About() {
               interest in programming to creating the future of the web.
             </p>
             <p>
-              Currently pursuing a certificate in full stack development from UNC Chapel Hill, with expected completion
-              in May of 2021.
+              Completed a certificate in full stack development from UNC Chapel Hill in May of 2021.
             </p>
             <p>
               For more information, you can view <a href="https://drive.google.com/file/d/1-5sTT6lQAskb-MuUUho-Gm9-Osd94B5p/view" target="_blank" rel="noreferrer">my resume</a>.
