@@ -1,12 +1,12 @@
 const projectInfo = [
   {
     id: 1,
-    name: "Trivia Trainer",
-    thumbnail: "trivia-trainer-thumbnail.png",
-    technologies: "API, Bootstrap, jQuery",
-    description: "A trivia application with history tracking for training your brain",
-    githubLink: "https://github.com/malenchite/trivia-trainer",
-    deployLink: "https://malenchite.github.io/trivia-trainer"
+    name: "The Web Dev Game",
+    thumbnail: "the-web-dev-game-thumbnail.png",
+    technologies: "React, Tailwind, Express, Mongoose, Socket.io",
+    description: "A two-player interactive strategy game with a web development trivia component so you can challenge your friends while refining your web dev knowledge.",
+    githubLink: "https://github.com/malenchite/web-dev-game",
+    deployLink: "https://the-web-dev-game.herokuapp.com/"
   },
   {
     id: 2,
@@ -19,6 +19,15 @@ const projectInfo = [
   },
   {
     id: 3,
+    name: "Trivia Trainer",
+    thumbnail: "trivia-trainer-thumbnail.png",
+    technologies: "API, Bootstrap, jQuery",
+    description: "A trivia application with history tracking for training your brain",
+    githubLink: "https://github.com/malenchite/trivia-trainer",
+    deployLink: "https://malenchite.github.io/trivia-trainer"
+  },
+  {
+    id: 4,
     name: "Workout Tracker",
     thumbnail: "workout-tracker-thumbnail.png",
     technologies: "node.js, Express, Mongoose",
@@ -27,7 +36,7 @@ const projectInfo = [
     deployLink: "https://malenchite-workout.herokuapp.com/"
   },
   {
-    id: 4,
+    id: 5,
     name: "Note Taker",
     thumbnail: "note-taker-thumbnail.png",
     technologies: "node.js, Express",
@@ -36,21 +45,13 @@ const projectInfo = [
     deployLink: "http://malenchite-note-taker.herokuapp.com"
   },
   {
-    id: 5,
+    id: 6,
     name: "Burger Logger",
     thumbnail: "burger-logger-thumbnail.png",
     technologies: "node.js, Express, Handlebars, MySQL",
     description: "A web application for tracking burger consumption",
     githubLink: "https://github.com/malenchite/burger-logger",
     deployLink: "https://malenchite-burger.herokuapp.com/"
-  },
-  {
-    id: 6,
-    name: "Employee Tracker",
-    thumbnail: "employee-tracker-thumbnail.png",
-    technologies: "node.js, MySQL",
-    description: "A command-line application for interacting with a local employee MySQL database",
-    githubLink: "https://github.com/malenchite/employee-tracker"
   },
 
 ];
