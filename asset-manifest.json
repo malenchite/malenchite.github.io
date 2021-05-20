@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d71c0162.chunk.css",
-    "main.js": "/static/js/main.8e1d7f1c.chunk.js",
-    "main.js.map": "/static/js/main.8e1d7f1c.chunk.js.map",
+    "main.js": "/static/js/main.c1aa921a.chunk.js",
+    "main.js.map": "/static/js/main.c1aa921a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a79540f1.js",
     "runtime-main.js.map": "/static/js/runtime-main.a79540f1.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9b712963.chunk.js": "/static/js/2.9b712963.chunk.js",
-    "static/js/2.9b712963.chunk.js.map": "/static/js/2.9b712963.chunk.js.map",
+    "static/js/2.6e8af630.chunk.js": "/static/js/2.6e8af630.chunk.js",
+    "static/js/2.6e8af630.chunk.js.map": "/static/js/2.6e8af630.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.d71c0162.chunk.css.map": "/static/css/main.d71c0162.chunk.css.map",
-    "static/js/2.9b712963.chunk.js.LICENSE.txt": "/static/js/2.9b712963.chunk.js.LICENSE.txt",
+    "static/js/2.6e8af630.chunk.js.LICENSE.txt": "/static/js/2.6e8af630.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/background-tile.5f736ed9.png",
     "static/media/burger-logger-thumbnail.png": "/static/media/burger-logger-thumbnail.4d6fd879.png",
     "static/media/code-quiz-thumbnail.png": "/static/media/code-quiz-thumbnail.599d9b8e.png",
@@ -23,6 +23,7 @@
     "static/media/readme-generator-thumbnail.png": "/static/media/readme-generator-thumbnail.223c56b0.png",
     "static/media/rpg-manager-thumbnail.png": "/static/media/rpg-manager-thumbnail.094ea6d0.png",
     "static/media/team-profile-generator-thumbnail.png": "/static/media/team-profile-generator-thumbnail.c8af8d3d.png",
+    "static/media/the-web-dev-game-thumbnail.png": "/static/media/the-web-dev-game-thumbnail.4c608b1d.png",
     "static/media/trivia-trainer-thumbnail.png": "/static/media/trivia-trainer-thumbnail.a30fd438.png",
     "static/media/weather-dashboard-thumbnail.png": "/static/media/weather-dashboard-thumbnail.6f983832.png",
     "static/media/work-day-scheduler-thumbnail.png": "/static/media/work-day-scheduler-thumbnail.290b09ae.png",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.a79540f1.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9b712963.chunk.js",
+    "static/js/2.6e8af630.chunk.js",
     "static/css/main.d71c0162.chunk.css",
-    "static/js/main.8e1d7f1c.chunk.js"
+    "static/js/main.c1aa921a.chunk.js"
   ]
 }
