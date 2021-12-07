@@ -3,7 +3,7 @@ import portrait from "../images/portrait.png";
 import "./About.css"
 
 function About () {
-  document.title = "Steven Israel | About";
+  document.title = "S Israel | About";
   return (
     <Container>
       <section>
@@ -42,7 +42,7 @@ function About () {
               Completed a certificate in full stack development from UNC Chapel Hill in May of 2021.
             </p>
             <p>
-              For more information, you can view <a href="https://drive.google.com/file/d/1-5sTT6lQAskb-MuUUho-Gm9-Osd94B5p/view" target="_blank" rel="noreferrer">my resume</a>.
+              For more information, my resume is available on request.</a>.
             </p>
             <table>
               <thead>
