@@ -29,8 +29,6 @@ npm start
 
 The contact page email handler can be found at [profile-contact](https://github.com/malenchite/profile-contact).
 
-## Screenshot
-![Screenshot of web site](assets/images/screenshot.PNG)
 
 ## Deployment
 This application has been deployed as http://malenchite.github.io
