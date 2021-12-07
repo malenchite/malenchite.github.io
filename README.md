@@ -9,7 +9,6 @@ React and Bootstrap are used to ease production and maintenance.
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Screenshot](#Screenshot)
 * [Deployment](#Deployment)
 * [License](#License)
 * [Questions](#Questions)
