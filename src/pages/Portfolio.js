@@ -3,7 +3,7 @@ import projectInfo from "../data/projectInfo"
 import PortfolioRow from "../components/PortfolioRow"
 
 function Portfolio() {
-  document.title = "Steven Israel | Portfolio";
+  document.title = "S Israel | Portfolio";
 
   /* Construct list of rows with 1-2 projects each */
   const createRows = () => {

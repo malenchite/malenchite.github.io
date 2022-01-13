@@ -12,7 +12,7 @@ function Header() {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <Link to="/" className="title-name" onClick={collapseNav} replace>Steven Israel</Link>
+        <Link to="/" className="title-name" onClick={collapseNav} replace>S Israel</Link>
         <button className="navbar-toggler" type="button" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={toggleNavCollapse}>
           <span className="navbar-toggler-icon"></span>
         </button>

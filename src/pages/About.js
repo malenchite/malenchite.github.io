@@ -3,7 +3,7 @@ import portrait from "../images/portrait.png";
 import "./About.css"
 
 function About () {
-  document.title = "Steven Israel | About";
+  document.title = "S Israel | About";
   return (
     <Container>
       <section>
