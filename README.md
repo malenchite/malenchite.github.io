@@ -9,7 +9,6 @@ React and Bootstrap are used to ease production and maintenance.
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Screenshot](#Screenshot)
 * [Deployment](#Deployment)
 * [License](#License)
 * [Questions](#Questions)
@@ -29,8 +28,6 @@ npm start
 
 The contact page email handler can be found at [profile-contact](https://github.com/malenchite/profile-contact).
 
-## Screenshot
-![Screenshot of web site](assets/images/screenshot.PNG)
 
 ## Deployment
 This application has been deployed as http://malenchite.github.io
