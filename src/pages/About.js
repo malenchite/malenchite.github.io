@@ -42,7 +42,7 @@ function About () {
               Completed a certificate in full stack development from UNC Chapel Hill in May of 2021.
             </p>
             <p>
-              For more information, my resume is available on request.</a>.
+              For more information, my resume is available on request.
             </p>
             <table>
               <thead>
